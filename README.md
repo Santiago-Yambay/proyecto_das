@@ -1,3 +1,20 @@
+## Ramas
+Para iniciar una rama se be ejecutar 
+git flow init
+Antes de cualquier cambio
+
+# Crear rama
+Para crear una rama se usa
+git flow feature start <<Nombre de la rama>>
+
+# Guardar cambios
+git add -A
+git commit -m "Mensaje"
+
+# Subir al repositorio local
+git push origin feature/<<Nombre de la rama>>
+
+Crear un pull request 
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
