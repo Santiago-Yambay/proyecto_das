@@ -1,0 +1,15 @@
+.amd__customer-page__main {
+  height: calc(100vh - 16.7rem);
+}
+
+@screen sm {
+  .amd__customer-page__main {
+    height: calc(100vh - 9.9rem);
+  }
+}
+
+@screen md {
+  .amd__customer-page__main {
+    height: calc(100vh - 7.4rem);
+  }
+}

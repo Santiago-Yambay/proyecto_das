@@ -1,0 +1,3 @@
+.amd__item-calendar button {
+  width: calc(100% - 0.5rem);
+}

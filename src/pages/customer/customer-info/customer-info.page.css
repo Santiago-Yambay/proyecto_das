@@ -1,0 +1,21 @@
+.amd__customer-info-page__main {
+  height: calc(100vh - 6.1rem);
+}
+
+.amd__customer-info__card  {
+  box-sizing: border-box;
+}
+
+@screen md {
+  .amd__customer-info__card {
+    height: 23.5rem;
+    max-height: 23.5rem;
+  }
+}
+
+@screen lg {
+  .amd__customer-info__card {
+    height: 12rem;
+    max-height: 12rem;
+  }
+}

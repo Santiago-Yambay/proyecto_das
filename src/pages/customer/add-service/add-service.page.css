@@ -1,0 +1,15 @@
+.amd__add-service-page__main {
+  height: calc(100vh - 13.2rem);
+}
+
+@screen sm {
+  .amd__add-service-page__main {
+    height: calc(100vh - 13.1rem);
+  }
+}
+
+@screen md {
+  .amd__add-service-page__main {
+    height: calc(100vh - 7.6rem);
+  }
+}
