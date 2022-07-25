@@ -1,0 +1,12 @@
+.amd__customer-card {
+  height: 10rem;
+  max-height: 10rem;
+}
+
+.amd__wrap-delimiter {
+  overflow: hidden;
+  display: --webkit-box;
+  --webkit-line-clamp: 1;
+  --wekit-box-orient: vertical;
+  height: 2em;
+}
