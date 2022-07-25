@@ -1,0 +1,130 @@
+const labels = {
+  "label.global.name": "Nombre",
+  "label.global.lastname": "Apellido",
+  "label.global.user": "Usuario",
+  "label.global.account": "Cuenta",
+  "label.global.type": "Tipo",
+  "label.global.status": "Estado",
+  "label.global.gender": "Género",
+
+  "label.contact": "Contacto",
+  "label.contact.info": "Información del contacto",
+  "label.contact.phone": "Teléfono",
+  "label.contact.email": "Correo electrónico",
+  "label.contact.address": "Dirección",
+  "label.contact.state": "Estado",
+  "label.contact.zipCode": "Código Zip",
+
+  "label.status": "Status", 
+  "label.status.active": "Activo",
+  "label.status.inactive": "Inactivo",
+
+  "label.time.monthly": "mensual",
+  "label.time.days": "días",
+
+  "label.action.addNew": "Nuevo",
+  "label.action.back": "Atrás",
+  "label.action.save": "Guardar",
+  "label.action.resultFor": "resultados encontrados para",
+  "label.action.moreDetails": "Más detalles",
+  "label.action.moreDetails.edit": "Más detalles y editar",
+  "label.action.editOrAdd": "Más detalles y editar",
+  "label.action.manage": "administrar",
+  "label.action.validate": "validar",
+  "label.action.seeTermsAndConditions": "Ver términos y condiciones",
+  "label.action.recharge": "Recargar",
+  "label.action.purchase": "Comprar",
+  "label.action.accept": "Aceptar",
+
+  "label.customer": "Cliente",
+  "label.customer.find": "Buscar cliente",
+  "label.customer.subscriptions": "Subscripciones",
+  "label.customer.edit": "Editar plan o información del cliente",
+  "label.customer.paymentInfo": "Información de pago",
+  "label.customer.billing": "Facturación",
+  "label.customer.info": "Información del cliente",
+  "label.customer.customerJourney": "Experiencia del cliente",
+
+  "label.add-customer.availability": "Disponibilidad",
+  "label.add-customer.next": "Siguiente",
+  "label.add-customer.productSelection": "Seleccionar producto",
+  "label.add-customer.addOn": "Seleccionar agregados",
+  "label.add-customer.customerInformation": "Información del cliente",
+  "label.add-customer.orderConfirmation": "Confirmación de orden",
+  "label.add-customer.installationSchedule": "Programar la instalación",
+  "label.add-customer.payment": "Pago",
+  "label.add-customer.paymentMethod": "Método de pago",
+  "label.add-customer.completeOrder": "orden completa",
+  "label.add-customer.print": "imprimir",
+  "label.add-customer.sendEmail": "enviar un correo electrónico",
+
+  "label.account": "Cuenta",
+  "label.account.category": "Categoría de la cuenta",
+  "label.account.demographic": "Demographic",
+  "label.account.site": "Site",
+  "label.account.noHasPaymentMethod": "No tiene método de pago",
+
+  "label.billing.financials": "Financials",
+  "label.billing.balance": "Balance",
+  "label.billing.amount": "Amount",
+  "label.billing.colections": "Colections",
+  "label.billing.colectionStep": "Collection Step",
+  "label.billing.agingHistory": "Aging history",
+  "label.billing.lastPaymentDate": "Last payment date",
+
+  "label.dashboard": "Panel",
+  "label.dashboard.outageInfo": "Outage info",
+  "label.dashboard.usage": "Uso",
+  "label.dashboard.average": "Promedio",
+
+  "label.order.nro": "Nro. Orden",
+  "label.order.location": "Localización",
+
+  "label.activity.pendingActivities": "Actividades pendientes",
+  "label.activity.importantActivities": "Actividades importantes",
+
+  "label.category.noHas": "No tiene categorías",
+
+  "label.product.products": "Productos",
+  "label.product.noHas": "No tiene productos",
+  "label.product.contractOrRenew": "Contratar o renovar productos",
+  "label.product.noHasContractedProducts": "No tiene productos contratados",
+  "label.product.contractedProducts": "Productos contratados",
+  "label.product.validity": "Vigencia",
+  "label.product.validityDays": "days of validity",
+  "label.product.remain": "Quedan",
+  "label.product.buySuccess": "Su compra se realizo exitosamente",
+  "label.product.oneSelected": "Producto seleccionado",
+
+  "label.payment.card": "Tarjeta",
+  "label.payment.bank": "Banco",
+  "label.payment.accountNumber": "Número de cuenta",
+  "label.payment.dateExpiry": "Fecha de expiración",
+  "label.payment.paymentDate": "Fecha de pago",
+  "label.payment.detail": "Detalle del método de pago",
+  "label.payment.existingMethod": "Método de pago existente",
+  "label.payment.masterBalance": "Saldo maestro",
+  "label.payment.addMethod": "Agregar método de pago",
+
+  "label.query.noResults": "No se encontraron resultados de búsqueda",
+
+  "label.subscriptions.noHas": "No tiene subscripciones",
+
+  "label.bills.noHas": "No tiene facturas",
+
+  "label.invoice.paidOut": "Pagado",
+  "label.invoice.outstanding": "Pendiente",
+
+  "label.order.confirmation": "Confirme la información del pedido y presione el botón siguiente",
+  "label.order.acceptTerms": "Aceptar los términos y condiciones",
+
+  "label.events": "Acciones",
+  "label.events.openCase": "Abrir caso",
+  "label.events.changeNumber": "Cambio de número",
+  "label.events.changeSIM": "Cambio de SIM card",
+  "label.events.noHas": "No tiene acciones",
+
+  "label.buy.continue": "Por favor para continuar su compra presione siguiente",
+};
+
+export { labels };
