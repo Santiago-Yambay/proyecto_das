@@ -1,0 +1,15 @@
+export enum LinesAction {
+  SetLines = 'SET_LINES',
+  SetAccounts = 'SET_ACCOUNTS',
+  SetCurrentLine = 'SET_CURRENT_LINE',
+  RemoveCurrentLine = 'REMOVE_CURRENT_LINE',
+  SetCurrentAccount = 'SET_CURRENT_ACCOUNT',
+  RemoveCurrentAccount = 'REMOVE_CURRENT_ACCOUNT',
+  SetProductToAdd = 'SET_PRODUCT_TO_ADD',
+  RemoveProductToAdd = 'REMOVE_PRODUCT_TO_ADD',
+  SetCurrentSubscription = 'SET_CURRENT_SUBSCRIPTION',
+  RemoveCurrentSubscription = 'REMOVE_CURRENT_SUBSCRIPTION',
+  SetSubscriptions = 'SET_SUBSCRIPTIONS',
+  RemoveSubscriptions = 'REMOVE_SUBSCRIPTIONS',
+  SetAddress = 'SET_ADDRESS',
+}
